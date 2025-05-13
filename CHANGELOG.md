@@ -1,3 +1,6 @@
+# 0.1.2
+- Fix another bug
+
 # 0.1.1
 - Fix bug
 
