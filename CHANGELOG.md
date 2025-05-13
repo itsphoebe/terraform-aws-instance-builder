@@ -1,3 +1,6 @@
+# 0.3.0
+- Change default `instance_size` default to `t3.small`
+
 # 0.2.0
 - Third instance created with same default variables
 
