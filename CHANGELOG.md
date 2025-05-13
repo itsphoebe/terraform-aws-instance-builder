@@ -1,3 +1,6 @@
+# 0.2.0
+- Third instance created with same default variables
+
 # 0.1.2
 - Fix another bug
 
