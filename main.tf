@@ -27,11 +27,11 @@ resource "aws_iam_role" "ec2_role" {
   })
 }
 
-resource "aws_instance" "second_world" {
-  ami           = data.aws_ami.ubuntu.id
-  subnet_id     = data.aws_subnets.default.ids[0]
-  instance_type = var.instance_type
-}
+# resource "aws_instance" "second_world" {
+#   ami           = data.aws_ami.ubuntu.id
+#   subnet_id     = data.aws_subnets.default.ids[0]
+#   instance_type = var.instance_type
+# }
 
 resource "aws_instance" "third_world" {
   ami           = data.aws_ami.ubuntu.id

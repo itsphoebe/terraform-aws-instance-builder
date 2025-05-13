@@ -1,3 +1,6 @@
+# 0.4.0
+- Remove an instance
+
 # 0.3.0
 - Change default `instance_size` default to `t3.small`
 
