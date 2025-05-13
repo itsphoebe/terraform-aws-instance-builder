@@ -3,6 +3,9 @@ resource "aws_instance" "hello_world" {
   subnet_id     = data.aws_subnets.default.ids[0]
   instance_type = var.instance_type
   iam_instance_profile = aws_iam_instance_profile.ec2_profile.name
+  tags = merge(var.tags, {
+    Name = "${var.name_prefix}-instance"
+  })
 }
 
 resource "aws_iam_instance_profile" "ec2_profile" {

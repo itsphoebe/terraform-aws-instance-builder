@@ -1,3 +1,6 @@
+# 0.5.0 
+- Require `name_prefix` variable for naming instances
+
 # 0.4.0
 - Remove an instance
 
